@@ -1,0 +1,30 @@
+# ===== CLion / JetBrains IDE =====
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ===== CMake 构建产物 =====
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+build/
+cmake-build-*/**
+
+# ===== C/C++ 编译产物 =====
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+*.dll
+*.lib
+*.pdb
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
